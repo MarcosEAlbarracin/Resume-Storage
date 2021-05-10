@@ -1,0 +1,74 @@
+body{
+    font-family: sans-serif;
+    background-color: #bbb;
+    margin: 0;
+}
+body p{
+    line-height: 1.5;
+}
+h1{
+    padding-top: 1em;
+    text-indent: 2.5vw;
+}
+div.banner{
+    position:sticky;
+    top:0;
+    width: 100%;
+    z-index: 1;
+    background-color: #7e7a7a;
+}
+header {
+    height: 50px;
+    background-color: #686abbde;
+}
+header div:first-child{
+    position: relative;
+    top: 7px;
+    font-weight: bold;
+    padding-left: 36px;
+    font-family: 'URW Chancery L';
+    
+}
+header div a{
+    font-family: 'Alex Brush', cursive;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+header div:last-child{
+    position: absolute;
+    right: 1vw;
+    top: 0;
+}
+#profile{
+    width: 46px;
+    height: 46px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+.menu-banner li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 50px 20px 0;
+}
+section{
+    background-color: #9091becc;
+    margin: 5px 10vw 16px;
+    padding: 0 5vw;
+    text-indent: 1vw;
+}
+section div:last-child{
+    padding-bottom: 8px;
+}
+footer{
+    margin-bottom:-1em;
+    width:100%;
+    background-color: #736653;
+    padding: 5px 0 5px;
+    font-family: monospace;
+    font-size: 14px;
+}
+footer p{
+    padding-left: 1em;
+}
