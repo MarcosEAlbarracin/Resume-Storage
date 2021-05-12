@@ -21,30 +21,47 @@ header {
     height: 50px;
     background-color: #686abbde;
 }
-header div:first-child{
+header a{
     position: relative;
     top: 7px;
     font-weight: bold;
     padding-left: 36px;
-    font-family: 'URW Chancery L';
-    
-}
-header div a{
     font-family: 'Alex Brush', cursive;
     font-size: 36px;
     text-decoration: none;
     color: black;
 }
-header div:last-child{
+header div{
     position: absolute;
-    right: 1vw;
+    right: 5px;
     top: 0;
+}
+header img{
+    cursor: pointer;
 }
 #profile{
     width: 46px;
     height: 46px;
     border: 2px solid grey;
     border-radius: 50%;
+}
+.profile-menu{
+    position: absolute;
+    top: 42px;
+    right: 42px;
+    width: 100px;
+    /*height: 90px;*/
+    background-color: gray;
+    font-size: 0.75em;
+    padding-top: 5px;
+    border:1px solid black;
+    /*display: none;*/
+}
+.collapse{
+    position: absolute;
+    right:2px;
+    font-size: 16px;
+    cursor: pointer;
 }
 .menu-banner li{
     display: inline-block;
