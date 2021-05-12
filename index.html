@@ -12,11 +12,15 @@
 <body>
     <div class="banner">
         <header>
-            <div>
+            <!--<div>-->
                 <a href="index.html"> Resum Storage </a>
-            </div>
+            <!--</div>-->
             <div>
-                <img id="profile" alt="Profile" src="profile2.jpg">
+                <img id="profile" alt="Profile" src="profile2.jpg" onclick="dropdownListFunction()">
+                <div class="profile-menu">
+                    My Account<br><hr>My Resum<br><hr>Log Out<br><hr>
+                    <div class="collapse" onclick="collapseListFunction()" >^</div>
+                </div>
             </div>
         </header>
         <div class="menu-banner">
@@ -53,5 +57,15 @@
             </p>
         </footer>
     </div>
+    <script>
+        function dropdownListFunction(){
+            document.getElementsById("profile").style.display = "block";
+        }
+    </script>
+    <script>
+        function collapseListFunction(){
+            document.getElementsByClassName("collapse").style.display = "none";
+        }
+    </script>
 </body>
 </html>
